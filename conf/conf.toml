@@ -1,0 +1,26 @@
+[jwt]
+jwtkey = "12345876"
+jwtexp = 8
+
+[wechat]
+appid = "appid"
+secret = "secret"
+
+[database]
+host = "127.0.0.1"
+port = 3309
+user = "root"
+passwd = "admin"
+dbname = "reminder"
+params = "charset=utf8&parseTime=true"
+
+[xorm]
+idle = 10
+open = 20
+show = true
+sync = false
+cache_enable = false
+cache_count = 1000
+
+[static]
+staticImgBase = "/static/images/"
